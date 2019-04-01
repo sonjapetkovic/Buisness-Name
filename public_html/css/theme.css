@@ -93,5 +93,24 @@ header .navbar-nav .nav-link {
     left: 5%; }
   .lead-slider-wrapper .owl-nav .owl-next {
     right: 5%; } }
+.about figure {
+  margin-bottom: 0; }
+  .about figure img {
+    display: block;
+    width: 100%; }
+.about article {
+  max-width: 600px; }
+.about .btn-secondary {
+  border: 2px solid #ee9700;
+  background: #ffa509;
+  color: #fff; }
+
+ul {
+  text-aligne: center; }
+  ul li a:hover {
+    background-color: #4077ad;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px; }
 
 /*# sourceMappingURL=theme.css.map */
