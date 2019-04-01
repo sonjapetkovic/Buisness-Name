@@ -9,7 +9,7 @@ $(document).ready(function(){
            nav:true,
            dots:true,
            loop:true,
-           navText:['<span class=""fa fa-ungle-left></span>','<span class=""fa fa-ungle-right></span>'],
+           navText:['<span class="fa fa-angle-left"></span>','<span class="fa fa-angle-right"></span>'],
            autoplay:true
        }); 
        
