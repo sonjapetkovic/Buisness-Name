@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700|Open+Sans:400,400i,700,800|PT+Sans:700|Pacifico&subset=latin-ext");
+html {
+  font-size: 13px; }
+
+@media (min-width: 992px) {
+  html {
+    font-size: 16px; } }
+img {
+  max-width: 100%; }
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400; }
+
+h5 {
+  font-family: "Lato", sans-serif;
+  font-weight: 700; }
+
+header .navbar-brand {
+  font-family: "Pacifico", cursive;
+  font-size: 30px; }
+header .navbar-toggler {
+  border-color: #FFC155 !important; }
+header .navbar-nav .nav-link {
+  font-size: 1.1rem;
+  text-align: center;
+  border-bottom: 1px solid #fff; }
+  header .navbar-nav .nav-link:hover, header .navbar-nav .nav-link.active {
+    border-bottom: 1px solid #FFC155; }
+
+@media (min-width: 768px) {
+  header .navbar-nav .nav-link {
+    border-bottom: none; }
+    header .navbar-nav .nav-link:hover, header .navbar-nav .nav-link.active {
+      border-bottom: none; } }
+
+/*# sourceMappingURL=theme.css.map */

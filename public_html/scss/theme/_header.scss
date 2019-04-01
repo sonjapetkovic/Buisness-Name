@@ -1,0 +1,35 @@
+
+header{
+    //brand
+    .navbar-brand{
+        font-family: $font-pacifico;
+        font-size: 30px;
+    }
+    .navbar-toggler{
+        border-color:$secondary!important;
+    }
+    .navbar-nav{
+        .nav-link{
+            font-size:1.1rem;
+            text-align: center;
+            border-bottom: 1px solid $white;
+            
+            &:hover, &.active{
+                border-bottom: 1px solid $secondary;
+            }
+        }
+    }
+}//header end
+
+@media(min-width:768px){
+    header{
+        .navbar-nav{
+            .nav-link{
+                border-bottom: none;
+                &:hover,&.active{
+                    border-bottom: none;
+                }
+            }
+        }
+    }
+}
