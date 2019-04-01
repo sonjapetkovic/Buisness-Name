@@ -35,7 +35,7 @@ and open the template in the editor.
         
         
          <!--eXTERNAL CSS, like plugins ...-->
-         
+         <link href="css/owl.carousel.css" rel="stylesheet" type="text/css"/>
          
          
          
@@ -61,7 +61,7 @@ and open the template in the editor.
         
     </head>
     <body>
-        <header class="fixed-top py-2 py-lg-4 bg-dark">
+        <header class="fixed-top py-2 py-lg-4">
             <div class="container">
                 <!--NAVIGATION START-->
                 <nav class="navbar navbar-expand-md navbar-light navbar-dark px-0">
@@ -93,7 +93,31 @@ and open the template in the editor.
                             </nav>
             </div>  <!--NAVIGATION END-->
         </header>
-        
+        <main>
+            <section class="lead-slider-wrapper">
+                <ul class="lead-slider list-unstyled owl-carousel">
+                    <li style="background-image: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(img/slider/slide1.jpg)">
+                        <div class="container text-center text-white">
+                            <h1>Simple,Fresh & Unique Design </h1>
+                            <p class="lead mb-6">Donec posuere augue venenatis, </p>
+                            <a class="btn btn-primary text-upercase">show more</a>
+                    </li>
+                    <li style="background-image: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(img/slider/slide1.jpg)">
+                        <div class="container text-center text-white">
+                            <h1>Simple,Fresh & Unique Design </h1>
+                            <p class="lead mb-6">Donec posuere augue venenatis, </p>
+                            <a class="btn btn-primary text-upercase">show more</a>
+                    </li>
+                    <li style="background-image: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(img/slider/slide1.jpg)">
+                        <div class="container text-center text-white">
+                            <h1>Simple,Fresh & Unique Design </h1>
+                            <p class="lead mb-6">Donec posuere augue venenatis, </p>
+                            <a class="btn btn-primary text-upercase">show more</a>
+                    </li>
+                </ul>
+            </section>
+        </main>
+            
         
         
         
@@ -112,6 +136,8 @@ and open the template in the editor.
         <script src="js/popper.js" type="text/javascript"></script>
         <script src="js/bootstrap.min.js" type="text/javascript"></script>
         
+        <!--Plugins JS-->
+        <script src="js/owl.carousel.min.js" type="text/javascript"></script>
         
         <!--All page js-->
         <script src="js/main.js" type="text/javascript"></script>
