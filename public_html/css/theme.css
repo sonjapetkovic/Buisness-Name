@@ -149,6 +149,28 @@ ul {
     border-top-color: #F6F3F3;
     border-left-color: #F6F3F3; }
 
+footer {
+  background-color: #394B50;
+  color: #fff; }
+  footer .btn {
+    background-color: #709DCA;
+    color: #fff; }
+  footer h5.b-name {
+    font-family: "Pacifico", cursive; }
+  footer h5.open-s {
+    font-family: "Open Sans", sans-serif; }
+  footer .footer2 {
+    background-color: black; }
+    footer .footer2 .fa {
+      height: 30px;
+      width: 30px;
+      background-color: #2C3B42;
+      line-height: 30px;
+      transition: 0.5s;
+      text-align: center; }
+      footer .footer2 .fa:hover {
+        background-color: #709DCA; }
+
 .our-work .subtitle {
   position: relative;
   text-align: center;
