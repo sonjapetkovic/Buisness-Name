@@ -13,6 +13,20 @@ $(document).ready(function(){
            autoplay:true
        }); 
        
+      $('.slider-testimonial').owlCarousel({
+          dots:true,
+          nav:false,
+          loop:true,
+          responsive:{
+              0:{
+                  items:1
+              },
+              576:{
+                  items:2,
+                  margin:30
+              }
+          }
+      });
        
    }
     
