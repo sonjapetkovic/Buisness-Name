@@ -1,5 +1,9 @@
 
 header{
+    transition:0.5s linear;
+    .header-active{
+       background: rgba(0,0,0,0.8);
+    }
     //brand
     .navbar-brand{
         font-family: $font-pacifico;
