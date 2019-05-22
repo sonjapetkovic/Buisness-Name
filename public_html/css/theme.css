@@ -18,7 +18,7 @@ h5 {
 
 header {
   transition: 0.5s linear; }
-  header .header-active {
+  header.header-active {
     background: rgba(0, 0, 0, 0.8); }
   header .navbar-brand {
     font-family: "Pacifico", cursive;
